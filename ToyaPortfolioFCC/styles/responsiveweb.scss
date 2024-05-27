@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px){
+    header {
+        padding: 0;
+
+        .right-header {
+            padding: 2rem !important;
+        }
+    }
+
+    .theme-btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .left-header {
+        .header-shape {
+            display: none;
+        }
+    }
+
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .header-content .left-header .header-image {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .controls {
+        bottom: 0 !important;
+        top: auto;
+        flex-direction: row !important;
+        justify-content: center;
+        //left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        //background-color: var(--color-grey-5);
+        //display: flex;
+
+        .control {
+            margin: 1rem .3rem;
+        }
+    }
+}
